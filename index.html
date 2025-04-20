@@ -99,5 +99,12 @@
       });
     </script>
 
+    <script>
+      var password = prompt("パスワードを入力してください:");
+      if (password !== "miyata") {
+        document.body.innerHTML = "<h2>ERROR: Access Denied.</h2>";
+      }
+    </script>
+
   </body>
 </html>
