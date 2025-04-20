@@ -26,9 +26,6 @@
 /* スマホ */
 @media all and (max-width: 670px) {    
  
-  
-  
-
   .top-wrapper {
     text-align: left;
     padding-left: 5%;
@@ -53,7 +50,6 @@
 
   .main-text {
     margin: 0 auto;
-    padding-left: 18%;
   }
 
 
