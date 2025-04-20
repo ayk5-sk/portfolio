@@ -25,15 +25,8 @@
   
 /* スマホ */
 @media all and (max-width: 670px) {    
-  .header-right {
-    display: none;
-  }
+ 
   
-  .menu-icon {
-    display: block;
-    margin-right: 5%;
-    margin-top: -5px;
-  }
   
 
   .top-wrapper {
@@ -62,4 +55,50 @@
     margin: 0 auto;
     padding-left: 18%;
   }
+
+
+  /* スマホ用menu */
+  .menu-icon {
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 100;
+    position: fixed;
+    top: -2px;
+    right: 5%;
+    color: #fff;
+  }
+  
+  .header-right {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(122, 99, 109, 0.95);
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: -10;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-right a {
+    margin: 20px 0;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-right.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    z-index: 10;
+  }
 }
+
