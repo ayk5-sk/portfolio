@@ -26,6 +26,7 @@ header {
 }
 
 .logo {
+  display: block;
   width: 40px;
   margin-top: 8px;
   margin-left: 8px;
@@ -33,6 +34,7 @@ header {
 
 .header-left {
   float: left;
+  margin-left: 0px;
 }
 
 .header-right {
