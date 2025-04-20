@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Skills & Activities | A.M</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <title>A.M</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap">
-  </head>
-
-  <body>
+        </head>
+      </head>
+    
+      <body>
+        
         <header>
-            <div class="container">
-                <div class="header-left">
-                    <a href="index.html">
-                        <img class="logo" src="images/IMG_0281.png" alt="Back to the top">
-                    </a>
-                </div>
-                <span class="fa fa-bars menu-icon"></span>
-
-                <div class="header-right">
-                    <a href="About.html">About Me</a>
-                    <a href="Skills.html">Skills & Activities</a>
-                </div>
+          <div class="container">
+            <div class="header-left">
+                <a href="index.html#top">
+                    <img class="logo" src="images/IMG_0281.png" alt="Back to the top">
+                </a>
             </div>
+            <i class="fas fa-bars menu-icon"></i>
+    
+            <div class="header-right">
+                <a href="About.html">About Me</a>
+                <a href="Skills.html">Skills & Activities</a>
+            </div>
+          </div>
         </header>
 
         <div class="top-wrapper">
@@ -61,5 +63,16 @@
                 <p>A.M</p>
             </div>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+          $(function () {
+            $('.menu-icon').on('click', function () {
+              $('.header-right').toggleClass('open');
+            });
+          });
+        </script>
+
   </body>
 </html>
