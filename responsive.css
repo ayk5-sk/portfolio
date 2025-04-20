@@ -5,8 +5,14 @@
     margin: 50px auto;
   }
 
+  .main-text {
+    margin-left: -8%;
+    margin-right: 8%;
+  }
+
   .box {
-    margin: 0 auto;
+    margin-left: 20%;
+    margin-right: 2%;
   }
 
   footer {
