@@ -11,7 +11,6 @@ a {
 }
 
 .container {
-  max-width: 1170px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -29,6 +28,7 @@ header {
 .logo {
   width: 40px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 .header-left {
@@ -108,6 +108,10 @@ header {
   text-align: center;
 }
 
+.mains {
+  max-width: 1170px;
+}
+
 .main {
   float: left;
   width: 25%;
@@ -147,7 +151,7 @@ header {
     display: inline-block;
     margin-top: 15px;
     font-size: 13px;
-    color: #968e90;
+    color: #7b6f72;
     text-align: left;
 }
 
@@ -188,3 +192,48 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+
+/* about */
+/* main-wrapper */
+.section {
+  padding-bottom: 10px;
+}
+
+.section h4 {
+  color: rgb(52, 34, 42);
+}
+
+.section span {
+  color: rgba(122, 99, 109, 0.85);
+  font-size: 16px;
+}
+
+.section h6 {
+  font-size: 17px;
+  font-weight: normal;
+  padding-left: 10px;
+  color: rgb(52, 34, 42);
+}
+
+.sub-li {
+  text-indent: 20px;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.section p {
+  font-size: 15px;
+  padding-left: 20px;
+  color: #7b6f72;
+}
+
+/* Skills */
+.section ul {
+  font-size: 15px;
+  color: #7b6f72;
+  text-indent: -1em;
+  padding-left: 1em;
+  margin-bottom: 10px;
+}  
+
